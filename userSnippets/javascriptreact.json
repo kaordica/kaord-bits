@@ -1,0 +1,35 @@
+{
+	"React Stateless Component (styled components)": {
+		"prefix": "rslc",
+		"body": [
+			"import React from 'react';",
+			"import styled from 'styled-components';",
+			"",
+			"const ${2:Styled} = styled.div``",
+			"",
+			"export const ${1:Component} = (props) => {",
+			"\treturn (",
+			"\t\t<${2:Styled}></${2:Styled}>",
+			"\t)",
+			"}",
+			"",
+			"export default ${1:Component}"
+		]
+	},
+	"React Stateful Component": {
+		"prefix": "rsfc",
+		"body": [
+			"import React from 'react';",
+			"",
+			"export class ${1:component} extends React.Component {",
+			"\trender() {",
+			"\t\treturn (",
+			"\t\t\t<div></div>",
+			"\t\t)",
+			"\t}",
+			"}",
+			"",
+			"export default ${1:component}"
+		]
+	}
+}

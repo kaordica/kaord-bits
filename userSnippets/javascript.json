@@ -1,0 +1,41 @@
+{
+	"Sanity Object": {
+		"prefix": "sanityObj",
+		"body": [
+			"export default {",
+			"\tname: '${1:name}',",
+			"\ttitle: '${2:title}',",
+			"\ttype: 'object',",
+			"\tfields: [",
+			"\t\t{",
+			"\t\t\tname: 'title',",
+			"\t\t\ttitle: 'Título',",
+			"\t\t\ttype: 'string',",
+			"\t\t}",
+			"\t],",
+			"}",
+		]
+	},
+	"Sanity Field": {
+		"prefix": "sanityFld",
+		"body": [
+			"{",
+			"\tname: '${1:name}',",
+			"\ttitle: '${2:title}',",
+			"\ttype: '${3:type}',",
+			"},",
+		]
+	},
+	"Sanity Required": {
+		"prefix": "sanityReq",
+		"body": [
+			"validation: Rule => Rule.required().error('Campo obrigatório'),",
+		]
+	},
+	"Sanity Description": {
+		"prefix": "sanityDesc",
+		"body": [
+			"description: '${1:description}',",
+		]
+	},
+}
