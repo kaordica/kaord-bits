@@ -12,6 +12,7 @@ export default {
     {
       name: 'title',
       title: 'Ocupação / título',
+      description: 'Campo opcional mas encorajado',
       type: 'string',
     },
     {
@@ -23,6 +24,7 @@ export default {
     {
       name: 'photo',
       title: 'Foto da pessoa',
+      description: 'Campo opcional',
       type: 'image',
       fields: [
         {

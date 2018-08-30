@@ -7,10 +7,12 @@ export default {
       name: 'title',
       title: 'Título',
       type: 'string',
+      validation: Rule => Rule.required().error('Campo obrigatório'),
     },
     {
       name: 'subtitle',
       title: 'Sub-título',
+      description: 'Campo opcional',
       type: 'string',
     },
   ],

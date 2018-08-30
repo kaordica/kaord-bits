@@ -1,7 +1,9 @@
 import genericObjects from './_generic';
-import exampleObjects from './example';
+import configObjects from './config';
+import modules from './modules';
 
 export default [
   ...genericObjects,
-  ...exampleObjects,
+  ...configObjects,
+  ...modules,
 ]
